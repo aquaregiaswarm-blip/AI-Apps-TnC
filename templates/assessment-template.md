@@ -1,39 +1,21 @@
-# AI Apps Terms & Conditions Assessment Framework
+# App Name: [APP NAME]
 
-> Systematic evaluation of AI application legal terms for enterprise compliance
-
----
-
-🜆 *"Dissolving legal complexity like royal water dissolves noble metals"* — Aqua Regia
+**Assessment Date:** [YYYY-MM-DD]  
+**Assessed By:** [Name]  
+**App Version/Plan:** [Free/Paid/Enterprise]  
 
 ---
 
-## Purpose
+## Document Sources
 
-This repository contains a standardized framework for assessing AI application Terms of Service, Privacy Policies, and Data Processing Agreements. Use this framework to evaluate vendor compliance across 7 critical risk domains.
+- **Terms of Service:** [URL] (Accessed: [Date])
+- **Privacy Policy:** [URL] (Accessed: [Date])
+- **Data Processing Agreement:** [URL] (Accessed: [Date])
+- **Security Documentation:** [URL] (Accessed: [Date])
+
+---
 
 ## Assessment Rubric
-
-### How to Use This Framework
-
-1. **Create app folder** in `apps/[app-name]/`
-2. **Download** current ToS, Privacy Policy, and DPA
-3. **Save** legal documents with date in `apps/[app-name]/legal-docs/`
-4. **Complete** `assessment.md` by answering each question
-5. **Mark** risk level: ✅ (Safe), ❌ (Risk), ⚠️ (Partial/Unclear)
-
-### Scoring Legend
-
-| Symbol | Meaning | Action Required |
-|--------|---------|-----------------|
-| ✅ | Safe/Compliant | None |
-| ❌ | Risk/Non-Compliant | Block/Remediate |
-| ⚠️ | Partial/Unclear | Investigate/Negotiate |
-| N/A | Not Applicable | Document why |
-
----
-
-## Assessment Questions
 
 ### 1. Data Training & Model Ingestion
 
@@ -94,46 +76,45 @@ This repository contains a standardized framework for assessing AI application T
 
 ---
 
-## App Assessment Status
+## Summary
 
-| App Name | Status | Last Updated | Overall Risk |
-|----------|--------|--------------|--------------|
-| | | | |
+| Risk Category | Risk Items | Status |
+|---------------|-----------|--------|
+| Data Training & Model Ingestion | 3 | TBD |
+| Data Residency & Sovereignty | 3 | TBD |
+| Intellectual Property Ownership | 4 | TBD |
+| Security & Access Controls | 3 | TBD |
+| Compliance & Certifications | 3 | TBD |
+| Contractual & SLA Gaps | 3 | TBD |
+| Vendor Lock-in & Portability | 3 | TBD |
 
----
+**Overall Risk Level:** [Low / Medium / High / Critical]
 
-## Directory Structure
-
-```
-ai-apps-tnc/
-├── README.md                          # This file
-├── apps/                              # App assessments
-│   ├── [app-name]/
-│   │   ├── assessment.md              # Completed rubric
-│   │   └── legal-docs/                # Legal documents
-│   │       ├── terms-of-service.md    # Dated ToS
-│   │       ├── privacy-policy.md      # Dated Privacy Policy
-│   │       └── dpa.md                 # Dated DPA (if available)
-│   └── ...
-└── templates/                         # Templates
-    └── assessment-template.md         # Blank rubric
-```
+**Recommendation:** [Approve / Approve with Conditions / Block / Requires Legal Review]
 
 ---
 
-## Important Disclaimer
+## Key Findings
 
-⚠️ **Legal Notice:**
-- This framework is for informational and assessment purposes only
-- Always consult qualified legal counsel for compliance decisions
-- Terms of Service change frequently—verify current versions
-- This repository does not provide legal advice
+### Critical Issues (❌)
+1. 
 
-⚠️ **Copyright Notice:**
-- Legal documents remain property of their respective vendors
-- Fair use for comparative analysis and research
-- Do not redistribute vendor documents without permission
+### Warnings (⚠️)
+1. 
+
+### Positive Findings (✅)
+1. 
 
 ---
 
-*Framework maintained by Aqua Regia 🜆*
+## Next Steps
+
+- [ ] Legal review
+- [ ] Vendor negotiation
+- [ ] DPA execution
+- [ ] Security assessment
+- [ ] Pilot approval
+
+---
+
+*Assessment completed using AI Apps TnC Framework*
